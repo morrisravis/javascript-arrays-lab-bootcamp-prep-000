@@ -23,4 +23,6 @@ return newKittens;
 }
 
 function prependKitten(name) {
-  varnewKitten
+var newKittens = [kittens...];
+newKittens.unshift(name);
+return newK
