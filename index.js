@@ -16,5 +16,5 @@ kittens.shift();
 return kittens;
 }
 
-function appendKitten(name) { kittens.concat("Ralph");
+function appendKitten(name) { kittens.concat("Broom");
 }
