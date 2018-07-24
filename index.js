@@ -35,8 +35,7 @@ return newKittens
 }
 
 function removeFirstKitten() {
-var newKittens = [...kittens]
-newKittens.shift()
-return newKittens
-}
+var newKittens = [...kittens];
+newKittens.shift();
+return newKittens;
 }
