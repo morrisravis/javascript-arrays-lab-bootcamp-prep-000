@@ -12,5 +12,5 @@ return kittens;
 }
 
 destructivelyRemoveFirstKitten() {
-kittens.
+kittens.shift()
 }
