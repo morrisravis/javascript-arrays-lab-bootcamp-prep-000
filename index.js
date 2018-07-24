@@ -28,5 +28,8 @@ newKittens.unshift(name);
 return newKittens;
 }
 
-fucntion removeLastKitten() { 
-var newKittens = []
+function removeLastKitten() { 
+var newKittens = [...kittens];
+newKittens.pop();
+return new kittens;
+}
