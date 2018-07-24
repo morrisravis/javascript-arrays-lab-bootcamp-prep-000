@@ -27,3 +27,6 @@ var newKittens = [...kittens];
 newKittens.unshift(name);
 return newKittens;
 }
+
+fucntion removeLastKitten() { 
+var newKittens = []
